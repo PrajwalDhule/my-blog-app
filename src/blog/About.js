@@ -14,8 +14,15 @@ const About = () => {
             <p>Prajwal Dhule</p>
             <p>Currently pursuing Computer Engineering degree</p>
             <p>
-              <a href="#">Linkedin</a>
-              <a href="#">Github</a>
+              <a
+                href="https://www.linkedin.com/in/prajwal-dhule/"
+                target="_blank"
+              >
+                Linkedin
+              </a>
+              <a href="https://github.com/PrajwalDhule" target="_blank">
+                Github
+              </a>
             </p>
           </div>
         </section>
