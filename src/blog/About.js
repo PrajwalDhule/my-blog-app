@@ -35,19 +35,34 @@ const About = () => {
                 <li>
                   <span>Techit</span>
                   <span>
-                    <a href="#">Github</a>
+                    <a
+                      href="https://github.com/PrajwalDhule/MERN-Techit"
+                      target="_blank"
+                    >
+                      Github
+                    </a>
                   </span>
                 </li>
                 <li>
                   <span>Helpalert</span>
                   <span>
-                    <a href="#">Github</a>
+                    <a
+                      href="https://github.com/PrajwalDhule/K3P-website"
+                      target="_blank"
+                    >
+                      Github
+                    </a>
                   </span>
                 </li>
                 <li>
                   <span>Space Tourism</span>
                   <span>
-                    <a href="#">Website</a>
+                    <a
+                      href="https://space-tourism-prajwal.netlify.app/"
+                      target="_blank"
+                    >
+                      Website
+                    </a>
                   </span>
                 </li>
               </ul>
