@@ -1,0 +1,125 @@
+.about-body main {
+  margin-left: 18vw;
+  padding: 3vh 0 0 9vw;
+}
+
+.about-body main section:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-body main section:nth-child(1) div:nth-child(1) {
+  height: 25vh;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-image: url("../images/dummy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-body main section:nth-child(1) div:nth-child(2) {
+  height: 25vh;
+  margin-left: 2rem;
+}
+
+.about-body main section:nth-child(1) div:nth-child(2) p {
+  text-align: left;
+}
+
+.about-body main section:nth-child(1) div:nth-child(2) p:nth-child(1) {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.about-body main section:nth-child(1) div:nth-child(2) p + p {
+  margin-top: 1em;
+}
+
+.about-body main section:nth-child(1) div:nth-child(2) a {
+  font-size: 1.25rem;
+}
+
+.about-body main section:nth-child(1) div:nth-child(2) a + a {
+  margin-left: 1em;
+}
+
+.about-body main .line {
+  width: 64vw;
+  height: 1px;
+  background-color: black;
+  margin: 1rem 0;
+}
+
+.about-body main section .topic {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+
+.about-body main section p {
+  text-align: left;
+}
+
+.about-body main section .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-body main section .top ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  font-size: 1.2rem;
+  margin: 1.5em 0;
+}
+
+.about-body main section .top ul li a {
+  margin-left: 1.5em;
+}
+
+.about-body main section .top div + div {
+  margin-left: 5rem;
+}
+
+.about-body main section .top div + div div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.about-body main section .top div + div div span {
+  margin: 0 1em 1em 0;
+  border-radius: 5px;
+  background-color: #efefff;
+  padding: 0.75em 1.25em;
+}
+
+.about-body main section .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0;
+}
+
+.about-body main section .bottom p {
+  text-align: left;
+}
+
+.about-body main section .bottom p + p {
+  margin-bottom: 1em;
+}
+/*# sourceMappingURL=About.css.map */

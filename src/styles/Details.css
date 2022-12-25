@@ -1,0 +1,63 @@
+.details-body main {
+  padding-top: 3vh;
+  margin-left: 18vw;
+  width: 82vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.details-body main img {
+  width: 32vw;
+  max-height: 48vh;
+}
+
+.details-body main .more-info {
+  width: 100%;
+  padding-left: 3vw;
+}
+
+.details-body main .more-info .tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.details-body main .more-info .tags span + span {
+  margin-left: 1em;
+  border-radius: 5px;
+  background-color: #efefff;
+  padding: 0.75em 1.25em;
+}
+
+.details-body main .more-info p {
+  text-align: left;
+  margin-top: 2em;
+}
+
+.details-body main .more-info p span:nth-child(1) {
+  margin-right: 0.5em;
+}
+
+.details-body main .more-info p span:nth-child(2) {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+@media (max-width: 1080px) {
+  .details-body main {
+    padding-top: 15vh;
+    margin-left: 9vw;
+  }
+}
+/*# sourceMappingURL=Details.css.map */

@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Roboto:wght@100;300;400&family=Ubuntu:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1.1;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.loader-container {
+  width: 82vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  margin-left: 18vw;
+  z-index: 1;
+}
+
+.spinner {
+  width: 64px;
+  height: 64px;
+  border: 8px solid;
+  border-color: #3d5af1 transparent #3d5af1 transparent;
+  border-radius: 50%;
+  -webkit-animation: spin-anim 1.2s linear infinite;
+          animation: spin-anim 1.2s linear infinite;
+}
+
+@-webkit-keyframes spin-anim {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-anim {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 0;
+  background: white;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 100vw;
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 1px solid #dedeff;
+  border-radius: 100vw;
+  background: #dedeff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a9ccff;
+}
+
+@supports (scrollbar-color: red blue) {
+  * {
+    scrollbar-color: #030246 #40669c;
+  }
+}
+
+@media (max-width: 768px) {
+  ::-webkit-scrollbar-track {
+    margin-top: 0;
+  }
+}
+/*# sourceMappingURL=global.css.map */
