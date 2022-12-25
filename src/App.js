@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { React, useEffect, createContext, useReducer, useContext } from "react";
+import { React } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./blog/Home";
 import Details from "./blog/Details";

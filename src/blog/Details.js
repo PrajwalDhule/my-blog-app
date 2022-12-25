@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import axios from "axios";
 import Navbar from "./Navbar";
 import "../styles/Details.css";
-import dummyImg from "../images/dummy.jpg";
-
 const Details = (props) => {
   const [postData, setPostData] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -12,7 +10,6 @@ const Details = (props) => {
   useEffect(() => {
     setLoading(true);
     axios({
-      // Endpoint to send files
       url: `https://dummyapi.io/data/v1/post/${postid}`,
       method: "GET",
       headers: {

@@ -9,7 +9,7 @@ const About = () => {
       <Navbar page="About" />
       <main>
         <section>
-          <div>{/* <img src={pfp} /> */}</div>
+          <div></div>
           <div>
             <p>Prajwal Dhule</p>
             <p>Currently pursuing Computer Engineering degree</p>
